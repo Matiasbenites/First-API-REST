@@ -1,0 +1,26 @@
+{
+  "name": "first-api",
+  "version": "1.0.0",
+  "description": "First api with sqlite3",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matiasbenites/First-API-REST.git"
+  },
+  "keywords": [],
+  "author": "Benites, Matias M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matiasbenites/First-API-REST/issues"
+  },
+  "homepage": "https://github.com/Matiasbenites/First-API-REST#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4"
+  }
+}
