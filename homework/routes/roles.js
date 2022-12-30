@@ -1,7 +1,9 @@
 const express = require("express");
 const rolRoutes = express.Router();
 
-rolRoutes.use("/roles", (req, res) => {
+
+//Define of a route
+rolRoutes.get("/roles", (req, res) => {
   res.json({ status: 200, data: {} });
 });
 
